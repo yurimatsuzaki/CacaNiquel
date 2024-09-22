@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Rye", serif;
+}
+
+body{
+    background-color: black;
+    padding: 15px;
+}
+
+header{
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto 30px auto;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 70px;
+}
+
+header > h1{
+    color: rgb(255, 35, 35);
+    font-size: 4em;
+    text-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+
+#corpo{
+    max-width: 400px;
+    height: 250px;
+    background-color: rgb(161, 2, 2);
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 5px solid red;
+    box-shadow: 0px 0px 20px red;
+}
+
+#tela{
+    max-width: 380px;
+    height: 170px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid yellow;
+    box-shadow: 0px 0px 10px yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.telas{
+    width: 125px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+#tela1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#tela3{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
