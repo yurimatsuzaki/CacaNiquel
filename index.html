@@ -19,7 +19,27 @@
                 <section class="telas" id="tela2"></section>
                 <section class="telas" id="tela3"></section>
             </section>
+            <section id="areaAposta">
+                <input type="text" name="aposta" class="aposta" maxlength="1">
+                <input type="text" name="aposta" class="aposta" maxlength="1">
+                <input type="text" name="aposta" class="aposta" maxlength="1">
+                <button onclick="apostar()">APOSTAR</button>
         </section>
     </main>
+
+    <dialog id="vitoria">
+        <h2>VOCÊ GANHOUU!!</h2>
+        <button class="alerta">Jogar novamente</button>
+    </dialog>
+    <dialog id="derrota">
+        <h2>Você perdeu!</h2>
+        <button class="alerta">Tentar novamente</button>
+    </dialog>
+    <dialog id="letra">
+        <h2>Apenas números</h2>
+        <button class="alerta">Entendi</button>
+    </dialog>
+
+    <script src="script.js"></script>
 </body>
 </html>
